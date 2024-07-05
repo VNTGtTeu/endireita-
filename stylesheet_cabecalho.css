@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --cor--fundo: #ffffff;
+    --cor--secundaria: #000000;
+    --cor--terciaria: #8B0505;
+    --cor--hover: #D8C4B6;
+    --fonte--primaria:"Roboto", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#8B0505;
+    initial-value: initial;
+}
+.cabecalho_menu_link {
+    font-family: var(--fonte--primaria);
+    font-style: normal;
+    color: white;
+    font-size: 1.1em;
+    margin: 0 0.5rem 0 0.5rem;
+    padding: 1em;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
